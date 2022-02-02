@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Odd Even Program</title>
+
+    <script>
+        function func()
+        {
+        var num;
+        num = Number(document.getElementById("first").value);
+        if(num % 2 == 0)
+        {
+        alert(num + " is even!");
+        }
+        else
+        {
+        alert(num + " is odd!");
+        }
+        }
+    </script>
+</head>
+    <body style="background-color:powderblue;">
+        <center>
+            <br><br>
+            <br><br>
+            <br><br>
+            <h1>Number : <input id="first"></h1>
+            <h1><button onclick="func()">CALCULATE</button></h1>
+        </center>
+    </body>
+</html>

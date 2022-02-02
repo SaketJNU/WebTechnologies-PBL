@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>String Concatination Program</title>
+    <script>
+        function combine(){
+        var a, b, c;
+        a = document.getElementById("first").value;
+        b = document.getElementById("second").value;
+        c = a.concat(" " + b);
+        document.getElementById("answer").value = c;
+        }
+    </script>
+</head>
+<body style="background-color:powderblue;">
+    <center>
+        <h1>First String : <input id="first"></h1>
+        <h1>Second String : <input id="second"></h1>
+        <h1><button onclick="combine()">CONCAT</button></h1>
+        <h1>Output : <input id="answer"></h1>
+    </center>
+</body>
+</html>
