@@ -1,0 +1,20 @@
+<html>
+  <head>
+        <title>Add program</title>
+        <script language="javascript">
+                function addNumbers()
+                {
+                        var val1 = parseInt(document.getElementById("value1").value);
+                        var val2 = parseInt(document.getElementById("value2").value);
+                        var ansD = document.getElementById("answer");
+                        ansD.value = val1 + val2;
+                }
+        </script>
+  </head>
+  <body>
+        value1 = <input type="text" id="value1" name="first number: " value=""/>
+        value2 = <input type="text" id="value2" name="second number" value=""/>
+        <input type="button" name="Sumbit" value="Add" onclick="javascript:addNumbers()"/>
+        Answer = <input type="text" id="answer" name="answer" value=""/>
+  </body>
+</html>
